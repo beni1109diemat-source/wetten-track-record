@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-08T20:52Z",
+ "stand": "2026-11-08T21:00Z",
  "rows": [
   {
    "nr": 1,
@@ -2451,7 +2451,7 @@
    "gewinn": 1.36,
    "beleg": "vor-git",
    "eingetragen_git": null,
-   "abgerechnet_git": null,
+   "abgerechnet_git": "2026-11-08T20:52:28Z",
    "begruendung": "Heimteam Favorit gegen Aufsteiger | Quote am 06.11. auf Marktstand angepasst: 1.65 → 1.68 (Unibet)",
    "news": "News-Check offen (Aufstellungen/Ausfälle vor Anpfiff prüfen).",
    "lernnotiz": "Automatisch aus dem Endstand abgerechnet: Die Wette ging auf.",
