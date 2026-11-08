@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-08T22:15Z",
+ "stand": "2026-11-08T22:30Z",
  "rows": [
   {
    "nr": 1,
@@ -2462,14 +2462,28 @@
    "nr": 92,
    "datum": "2026-11-08T21:00",
    "spiel": "Atlético Madrid – FC Barcelona",
-   "wettart": "Tipp verborgen bis Spielende · Prüfwert 092f3b00",
-   "quote": null,
+   "ergebnis": "1:2",
+   "wettart": "Sieg FC Barcelona",
+   "quote": 1.91,
    "einsatz": 2,
-   "status": "Offen",
+   "status": "Gewonnen",
    "sport": "Fußball",
-   "konfidenz": null,
+   "liga": "La Liga",
+   "typ": "1X2",
+   "buchmacher": "Unibet",
+   "konfidenz": 2,
+   "eigene_wahrsch": 0.524,
+   "faire_wahrsch": 0.524,
+   "beste_marktquote": 1.91,
+   "gewinn": 1.82,
+   "beleg": "vor-git",
+   "eingetragen_git": null,
+   "abgerechnet_git": null,
+   "begruendung": "Ersatz-Tipp: Value lt. Markt 0,0 % (fair), Barcelona leichter Favorit im Topspiel",
+   "news": "News-Check offen (Aufstellungen vor Anpfiff prüfen).",
+   "lernnotiz": "Automatisch aus dem Endstand abgerechnet: Die Wette ging auf.",
    "commit": "092f3b004d29c0179fa0c0af8f6f15c3dbd78b1dc3ff8e860d8cefedd05c94b9",
-   "beleg": "vor-git"
+   "salt": "4852487b0fe9edd9"
   },
   {
    "nr": 93,
