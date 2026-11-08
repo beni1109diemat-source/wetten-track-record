@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-08T22:30Z",
+ "stand": "2026-11-08T22:31Z",
  "rows": [
   {
    "nr": 1,
@@ -2478,7 +2478,7 @@
    "gewinn": 1.82,
    "beleg": "vor-git",
    "eingetragen_git": null,
-   "abgerechnet_git": null,
+   "abgerechnet_git": "2026-11-08T22:30:35Z",
    "begruendung": "Ersatz-Tipp: Value lt. Markt 0,0 % (fair), Barcelona leichter Favorit im Topspiel",
    "news": "News-Check offen (Aufstellungen vor Anpfiff prüfen).",
    "lernnotiz": "Automatisch aus dem Endstand abgerechnet: Die Wette ging auf.",
