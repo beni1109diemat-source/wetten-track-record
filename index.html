@@ -3,8 +3,7 @@
 <title>Quotenfuchs</title>
 <meta name="description" content="Quotenfuchs zeigt jede Sportwette offen, auch die verlorenen. Test mit Spielgeld und Zeitnachweis für jeden Tipp.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 240 240%27%3E%3Crect width=%27240%27 height=%27240%27 rx=%2740%27 fill=%27%230B1230%27/%3E%3Cpath d=%27M52 28 L100 78 Q120 72 140 78 L188 28 L214 122 L120 216 L26 122 Z%27 fill=%27%23FF7A1A%27/%3E%3Cpath d=%27M26 122 L88 148 Q120 160 152 148 L214 122 L120 216 Z%27 fill=%27%23FFF3E3%27/%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/fonts.css">
 <style>html,body{margin:0}
 /* Layout: dunkle Buehne mit Fuchs rechts, darunter helle Abschnitte. Bewusst ein einziger Look (Nacht + Fuchsorange). */
 :root{
@@ -92,10 +91,10 @@ footer p{max-width:46rem;margin:.3rem 0 0}
     <div class="hero" id="top">
       <div>
         <h1>Wir zeigen jede Wette. <em>Auch die verlorenen.</em></h1>
-        <p class="lead">Der Quotenfuchs sucht jeden Tag Sportwetten heraus, bei denen der Buchmacher nach unserer Rechnung zu viel bietet. Jeder Tipp bekommt einen Zeitstempel, bevor das Spiel beginnt. Alles läuft mit Spielgeld.</p>
+        <p class="lead">Der Quotenfuchs ist ein Experiment: Eine KI wählt jeden Tag Sportwetten aus, und wir zeigen jede davon, auch die verlorenen. Alles läuft mit Spielgeld, es geht kein echtes Geld verloren oder verdient.</p>
         <div class="cta">
           <a class="btn main" href="bilanz.html">Live-Bilanz ansehen</a>
-          <a class="btn ghost" href="#mitglied">Mitglied werden</a>
+          <a class="btn ghost" href="#mitglied">Mehr zum Mitgliederbereich</a>
         </div>
       </div>
       <svg class="fox" viewBox="0 0 260 250" role="img" aria-label="Der Quotenfuchs mit Lupe">
@@ -118,7 +117,7 @@ footer p{max-width:46rem;margin:.3rem 0 0}
       <div><b>€ 111,72</b>aus 100 € Spielgeld</div>
       <div><b>84</b>abgeschlossene Wetten</div>
       <div><b>49 von 84</b>gewonnen</div>
-      <small>Stand 08.11.2026. Die laufende Zahl steht in der Live-Bilanz.</small>
+      <small>Stand 09.11.2026. Die laufende Zahl steht in der Live-Bilanz.</small>
     </div>
   </div>
 </header>
@@ -131,26 +130,26 @@ footer p{max-width:46rem;margin:.3rem 0 0}
       <ol class="steps">
         <li><h3>Quoten sammeln</h3><p>Wir holen die Quoten vieler Buchmacher, dazu Verletzte, Sperren und Aufstellungen.</p></li>
         <li><h3>Fair nachrechnen</h3><p>Der Buchmacher Pinnacle gilt als besonders genau. Wir rechnen seinen Gewinnanteil heraus und erhalten die faire Wahrscheinlichkeit.</p></li>
-        <li><h3>Nur bei Vorteil tippen</h3><p>Ein Tipp kommt nur in die Liste, wenn irgendwo eine bessere Quote steht als der faire Wert und kein wichtiger Ausfall dagegen spricht.</p></li>
+        <li><h3>Auswahl nach Vorteil</h3><p>Ein Tipp kommt in die Liste, wenn irgendwo eine bessere Quote steht als der faire Wert und kein wichtiger Ausfall dagegen spricht. Das ist ein Auswahlkriterium, kein Gewinnversprechen. Nicht für jeden Markt gibt es den Vergleich, das steht dann beim Tipp.</p></li>
       </ol>
     </div>
   </section>
 
   <section class="s proof" id="beweis">
     <div class="wrap">
-      <h2>Beweis statt Versprechen</h2>
-      <p class="intro">Jeder kann nachprüfen, dass ein Tipp vor dem Anpfiff feststand.</p>
+      <h2>So machen wir Tipps nachprüfbar</h2>
+      <p class="intro">Der Zeitnachweis ist neu und gilt noch nicht für alle Wetten. Hier steht offen, wie weit wir sind.</p>
       <div class="proofgrid">
         <ol>
           <li>Vor dem Spiel veröffentlichen wir einen digitalen Fingerabdruck des Tipps. Den Tipp selbst halten wir zurück.</li>
           <li>Nach dem Spiel zeigen wir den Tipp mit Ergebnis und Begründung.</li>
-          <li>Du rechnest den Fingerabdruck nach. Stimmt er, stand der Tipp vorher fest.</li>
+          <li>Du rechnest den Fingerabdruck nach. Stimmt er, wurde der Tipp zu dem Zeitpunkt veröffentlicht, der im öffentlichen Verlauf auf GitHub steht.</li>
         </ol>
-        <div class="stamp" aria-label="Beispiel für einen Zeitnachweis">
-          <div class="row"><span>Spiel</span><span>Inter Mailand – Como</span></div>
-          <div class="row"><span>Fingerabdruck vorab</span><code>9f3a…c71e</code></div>
-          <div class="row"><span>Tipp danach</span><span>Unter 3,5 Tore</span></div>
-          <div class="row"><span>Ergebnis</span><span class="tag">2:0, gewonnen</span></div>
+        <div class="stamp" aria-label="Stand des Zeitnachweises">
+          <div class="row"><span>Abgeschlossene Wetten</span><span>84</span></div>
+          <div class="row"><span>Mit Zeitnachweis</span><span class="tag">1</span></div>
+          <div class="row"><span>Ohne Zeitnachweis</span><span>83 (vor Beginn der Dokumentation)</span></div>
+          <div class="row"><span>Stand</span><span>09.11.2026</span></div>
         </div>
       </div>
     </div>
@@ -183,7 +182,7 @@ footer p{max-width:46rem;margin:.3rem 0 0}
 <footer>
   <div class="wrap">
     <b>Quotenfuchs</b>
-    <p>Ein Test mit Spielgeld, kein Angebot und keine Wett- oder Anlageberatung. Glücksspiel kann süchtig machen. Wenn es zum Problem wird, hilft eine Spielsuchtberatung in deinem Land.</p>
+    <p>Ein Test mit Spielgeld, kein Angebot und keine Wett- oder Anlageberatung. Es gibt keine Gewinngarantie. Ab 18. Wetten sind mit Verlustrisiko verbunden und können süchtig machen. Hilfe in der Steiermark: Fachstelle für Glücksspielsucht Steiermark (fachstelle-gluecksspielsucht.at).</p>
     <p><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></p>
   </div>
 </footer>
