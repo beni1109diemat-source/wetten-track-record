@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-08T19:58Z",
+ "stand": "2026-11-08T20:52Z",
  "rows": [
   {
    "nr": 1,
@@ -2435,14 +2435,28 @@
    "nr": 91,
    "datum": "2026-11-08T19:30",
    "spiel": "TSG Hoffenheim – FC Schalke 04",
-   "wettart": "Tipp verborgen bis Spielende · Prüfwert c20fee53",
-   "quote": null,
+   "ergebnis": "2:1",
+   "wettart": "Sieg Hoffenheim",
+   "quote": 1.68,
    "einsatz": 2,
-   "status": "Offen",
+   "status": "Gewonnen",
    "sport": "Fußball",
-   "konfidenz": null,
+   "liga": "Bundesliga",
+   "typ": "1X2",
+   "buchmacher": "Unibet",
+   "konfidenz": 2,
+   "eigene_wahrsch": 0.62,
+   "faire_wahrsch": 0.5954,
+   "beste_marktquote": 1.68,
+   "gewinn": 1.36,
+   "beleg": "vor-git",
+   "eingetragen_git": null,
+   "abgerechnet_git": null,
+   "begruendung": "Heimteam Favorit gegen Aufsteiger | Quote am 06.11. auf Marktstand angepasst: 1.65 → 1.68 (Unibet)",
+   "news": "News-Check offen (Aufstellungen/Ausfälle vor Anpfiff prüfen).",
+   "lernnotiz": "Automatisch aus dem Endstand abgerechnet: Die Wette ging auf.",
    "commit": "c20fee531008330b62ed810ff39acc2687df3ab1b28c8dc7033b75f7157054c5",
-   "beleg": "vor-git"
+   "salt": "712f90c21224b96e"
   },
   {
    "nr": 92,
