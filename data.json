@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-09T01:41Z",
+ "stand": "2026-11-09T03:04Z",
  "rows": [
   {
    "nr": 1,
@@ -2489,14 +2489,28 @@
    "nr": 93,
    "datum": "2026-11-08T22:25",
    "spiel": "New England Patriots – Green Bay Packers",
-   "wettart": "Tipp verborgen bis Spielende · Prüfwert f514ab78",
-   "quote": null,
+   "ergebnis": "Patriots 27:45 Packers",
+   "wettart": "Handicap: Packers +3,5 (inkl. Verlängerung)",
+   "quote": 1.85,
    "einsatz": 2,
-   "status": "Offen",
+   "status": "Gewonnen",
    "sport": "Football",
-   "konfidenz": null,
+   "liga": "NFL",
+   "typ": "Handicap",
+   "buchmacher": "Quote lt. wetttippsheute.net",
+   "konfidenz": 2,
+   "eigene_wahrsch": 0.55,
+   "faire_wahrsch": null,
+   "beste_marktquote": null,
+   "gewinn": 1.7,
+   "beleg": "vor-git",
+   "eingetragen_git": null,
+   "abgerechnet_git": null,
+   "begruendung": "Packers ohne Parsons, Patriots mit fraglichem A.J. Brown; Modell: 57 % für Packers +3,5",
+   "news": "Patriots: Brown, Henry, Davis, Moses, Barmore, Jones fraglich. Packers: Parsons out, Watson und Nixon fraglich. (laut wetttippsheute.net) | Auto-Check 06.11.: Packers/Patriots nur Fraglich-Meldungen (Brown, Henry, Henderson / Lloyd, Watson). Tipp ok.",
+   "lernnotiz": "Die Packers haben nicht nur knapp verloren, sondern klar gewonnen; der Handicap-Tipp ging sicher auf.",
    "commit": "f514ab787d826e8af0f81cd9811324805a9381d059fcf20536f75ff8ce4ad53d",
-   "beleg": "vor-git"
+   "salt": "0cfd85f803704985"
   },
   {
    "nr": 94,
