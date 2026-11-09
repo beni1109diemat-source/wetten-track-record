@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-09T17:29Z",
+ "stand": "2026-11-09T17:51Z",
  "rows": [
   {
    "nr": 1,
@@ -2532,7 +2532,7 @@
    "gewinn": -1,
    "beleg": "vor-git",
    "eingetragen_git": null,
-   "abgerechnet_git": null,
+   "abgerechnet_git": "2026-11-09T17:29:26Z",
    "begruendung": "Value laut Markt +0,1 % (Pinnacle fair 30,3 %, Coolbet 3,30); Quote mindestens  2,00 daher max. 1 €. Montag-Nachtspiel (Nutzer-OK)",
    "news": "Bears ohne Muhammad (Zehe). Spiel läuft, Halbzeit 17:6 für Chicago; Tipp sieht schlecht aus.",
    "lernnotiz": "Tampa Bay verlor knapp mit 3 Punkten; Aussenseiterwette mit Quote 3,3 ging nicht auf.",
