@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-10T15:36Z",
+ "stand": "2026-11-10T15:50Z",
  "rows": [
   {
    "nr": 1,
@@ -2538,6 +2538,19 @@
    "lernnotiz": "Tampa Bay verlor knapp mit 3 Punkten; Aussenseiterwette mit Quote 3,3 ging nicht auf.",
    "commit": "54936d2dd487bfe29521b73bc56edd3af494bec3ba0d87bf73e4883a61388513",
    "salt": "25b421837a7c9c01"
+  },
+  {
+   "nr": 95,
+   "datum": "2026-11-11T01:10",
+   "spiel": "Toronto Maple Leafs – Colorado Avalanche",
+   "wettart": "Tipp verborgen bis Spielende · Prüfwert 004e9230",
+   "quote": null,
+   "einsatz": 1,
+   "status": "Offen",
+   "sport": "Eishockey",
+   "konfidenz": null,
+   "commit": "004e9230eb13288f14b055a1d96cae5dd73cafb2698c9cd4011be19e414dc85a",
+   "beleg": "vor-git"
   }
  ]
 }
