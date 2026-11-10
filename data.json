@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-10T15:50Z",
+ "stand": "2026-11-10T17:35Z",
  "rows": [
   {
    "nr": 1,
@@ -2550,7 +2550,7 @@
    "sport": "Eishockey",
    "konfidenz": null,
    "commit": "004e9230eb13288f14b055a1d96cae5dd73cafb2698c9cd4011be19e414dc85a",
-   "beleg": "vor-git"
+   "beleg": "git"
   }
  ]
 }
