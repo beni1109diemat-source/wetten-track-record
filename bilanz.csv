@@ -1,0 +1,95 @@
+﻿Datum;Spiel;Wettart;Quote;Einsatz (Simulation, EUR);Status;Ergebnis;Gewinn/Verlust (Simulation, EUR);Zeitnachweis
+2026-10-31 01:00;Calgary Flames – Seattle Kraken;Seattle Teamtotal 1. Drittel Über 0,5;1,48;2;Gewonnen;6:2;0,96;nein
+2026-10-31 13:30;FC Chelsea – Manchester United;Sieg Chelsea;1,8;2;Gewonnen;2:0;1,6;nein
+2026-10-31 14:00;UD Levante – Atlético Madrid;Sieg Atlético Madrid;1,5;3;Gewonnen;0:2;1,5;nein
+2026-10-31 15:30;Bayer Leverkusen – VfB Stuttgart;Über 3,5 Tore;1,76;5;Gewonnen;2:4;3,8;nein
+2026-10-31 15:30;Borussia Mönchengladbach – SC Paderborn;Doppelte Chance 1X & Beide treffen;1,91;1;Verloren;0:0;-1;nein
+2026-10-31 16:00;Manchester City – Brighton;Über 2,5 Tore & Beide treffen;1,65;2;Verloren;0:1;-2;nein
+2026-10-31 16:00;AFC Bournemouth – Leeds United;Doppelte Chance 1X & Unter 4,5 Tore;1,5;2;Gewonnen;2:0;1,0;nein
+2026-10-31 16:00;Brentford – Nottingham Forest;Beide treffen;1,6;2;Verloren;2:0;-2;nein
+2026-10-31 16:00;Hull City – Ipswich Town;Doppelte Chance 1X;1,5;2;Gewonnen;2:2;1,0;nein
+2026-10-31 18:30;Bayern München – Borussia Dortmund;Unter 4,5 Tore;1,52;8;Gewonnen;2:2;4,16;nein
+2026-10-31 18:30;Tottenham Hotspur – Crystal Palace;Tottenham Über 1,5 Tore;1,5;2;Gewonnen;2:0;1,0;nein
+2026-10-31 19:00;New York Islanders – Edmonton Oilers;Sieg Edmonton inkl. Verlängerung/Penaltys;1,7;3;Gewonnen;0:4;2,1;nein
+2026-10-31 20:45;AC Milan – Inter Mailand;Doppelte Chance X2 & Beide treffen;1,98;2;Verloren;3:1;-2;nein
+2026-11-01 14:00;Getafe – FC Sevilla;Getafe Doppelte Chance & Unter 2,5 Tore;2,07;4;Verloren;3:1;-4;nein
+2026-11-01 15:00;Racing Straßburg – AJ Auxerre;Sieg Straßburg;1,75;2;Gewonnen;5:1;1,5;nein
+2026-11-01 15:30;Union Berlin – 1. FC Köln;Über 2,5 Tore;1,63;2;Verloren;1:1;-2;nein
+2026-11-01 17:30;Eintracht Frankfurt – Hamburger SV;Sieg Frankfurt;1,6;2;Gewonnen;3:1;1,2;nein
+2026-11-01 17:30;FC Liverpool – FC Arsenal;1X2: Unentschieden;3,3;3;Verloren;0:1;-3;nein
+2026-11-01 18:30;FC Elche – FC Valencia;Valencia trifft in der 1. Halbzeit;2,05;2;Verloren;0:1;-2;nein
+2026-11-01 20:45;Olympique Marseille – FC Toulouse;1X2: Sieg Marseille;1,85;5;Gewonnen;2:0;4,25;nein
+2026-11-01 22:05;Los Angeles Rams – Los Angeles Chargers;Handicap: Rams -6,5;1,82;4;Gewonnen;24:9;3,28;nein
+2026-11-01 22:25;Denver Broncos – Kansas City Chiefs;Unter 43,5 Punkte;1,57;4;Verloren;28:24;-4;nein
+2026-11-02 18:00;Denis Shapovalov – Karen Khachanov;Über 21,5 Spiele;1,6;2;Gewonnen;4:6, 7:6, 4:1 (Aufgabe);1,2;nein
+2026-11-02 19:00;Ugo Humbert – Botic van de Zandschulp;Sieg Humbert;1,6;2;Gewonnen;7:6, 6:7, 6:3;1,2;nein
+2026-11-02 21:00;Newcastle United – FC Everton;1X2: Unentschieden;3,5;1;Verloren;0:1;-1;nein
+2026-11-02 21:00;Deportivo La Coruña – CA Osasuna;Sieg Deportivo;2,1;1;Gewonnen;2:1;1,1;nein
+2026-11-03 02:15;Seattle Seahawks – Chicago Bears;Sieg Seahawks;1,55;2;Verloren;17:34;-2;nein
+2026-11-03 11:00;Andrey Rublev – Tomás Martín Etcheverry;Über 21,5 Spiele;1,65;2;Gewonnen;6:4, 6:7, 7:6;1,3;nein
+2026-11-03 11:00;Arthur Rinderknech – Francisco Cerúndolo;Über 21,5 Spiele;1,666;2;Gewonnen;3:6, 7:6, 2:0 (Aufgabe);1,33;nein
+2026-11-03 11:00;Novak Djokovic – Valentin Vacherot;Über 22,5 Spiele;1,79;2;Gewonnen;6:7, 7:5, 6:1;1,58;nein
+2026-11-03 11:00;Alex Michelsen – Jiří Lehečka;Über 22,5 Spiele;1,81;2;Gewonnen;6:7, 6:2, 6:4;1,62;nein
+2026-11-03 11:00;Alejandro Davidovich Fokina – Moïse Kouamé;Davidovich Fokina −3,5 Spiele (Handicap);1,748;2;Storniert;Absage Fokina vor dem Match;0;nein
+2026-11-03 21:00;Feyenoord Rotterdam – Inter Mailand;Sieg Inter;1,746;2;Gewonnen;0:3;1,49;nein
+2026-11-03 21:00;FC Villarreal – Paris Saint-Germain;Sieg PSG;1,653;2;Gewonnen;0:6;1,31;nein
+2026-11-03 21:00;Manchester United – AS Rom;Doppelte Chance X2 (Rom/Remis);1,624;2;Verloren;3:2;-2;nein
+2026-11-03 21:00;Atlético Madrid – Bayern München;Doppelte Chance 1X (Atlético/Remis);1,715;2;Verloren;0:2;-2;nein
+2026-11-03 21:00;FC Barcelona – Aston Villa;Über 1,5 Tore 1. Halbzeit;1,74;1;Verloren;3:0 (Halbzeit 1:0);-1;nein
+2026-11-04 01:00;Montreal Canadiens – Winnipeg Jets;Winnipeg Teamtotal unter 3,5 Tore;1,31;2;Verloren;4:5;-2;nein
+2026-11-04 01:00;New York Rangers – St. Louis Blues;St. Louis Teamtotal 1. Drittel über 0,5 Tore;1,53;2;Verloren;3:1;-2;nein
+2026-11-04 18:45;Fenerbahçe Istanbul – FC Liverpool;Sieg Liverpool;1,68;2;Verloren;3:2;-2;nein
+2026-11-04 21:00;Borussia Dortmund – Real Betis;Sieg Dortmund;1,78;2;Gewonnen;2:1;1,56;nein
+2026-11-04 21:00;RB Leipzig – Manchester City;Doppelte Chance 1X (Leipzig/Remis);2,5;2;Verloren;2:3;-2;nein
+2026-11-04 21:00;Slavia Prag – FC Arsenal;Handicap (1:0): Arsenal gewinnt mit mind. 2 Toren;1,8;2;Verloren;1:2;-2;nein
+2026-11-05 18:45;AC Mailand – Ferencváros Budapest;Milan Handicap −1,5;1,93;2;Verloren;0:2;-2;nein
+2026-11-05 18:45;RSC Anderlecht – FC Salzburg;Sieg Anderlecht;1,85;2;Gewonnen;2:0;1,7;nein
+2026-11-05 21:00;AZ Alkmaar – Juventus;Sieg Juventus;1,95;2;Gewonnen;1:2;1,9;nein
+2026-11-05 21:00;Celtic Glasgow – Beşiktaş Istanbul;Über 2,5 Tore;1,692;2;Gewonnen;3:2;1,38;nein
+2026-11-05 21:00;SK Sturm Graz – NK Celje;Sieg Sturm Graz;1,55;2;Verloren;2:3;-2;nein
+2026-11-05 21:00;Bayer Leverkusen – Olympique Marseille;Sieg Leverkusen;1,44;2;Verloren;0:1;-2;nein
+2026-11-06 03:00;Phoenix Suns – Orlando Magic;Sieg Phoenix Suns;1,89;2;Gewonnen;117:104;1,78;nein
+2026-11-06 14:00;Ben Shelton – Tommy Paul;Sieg Tommy Paul;1,76;1;Verloren;4:6, 6:4, 3:6;-1;nein
+2026-11-06 18:30;Dynamo Dresden – SpVgg Greuther Fürth;Dresden trifft in der 1. Halbzeit;1,66;1;Gewonnen;3:0 (HZ 2:0);0,66;nein
+2026-11-06 18:30;Eintracht Braunschweig – Energie Cottbus;Sieg Braunschweig (Quotenboost);1,99;1;Storniert;;0;nein
+2026-11-06 19:30;SK Rapid Wien – Wolfsberger AC;Unter 3,5 Tore;1,93;2;Verloren;6:0;-2;nein
+2026-11-06 20:30;Hamburger SV – Borussia Mönchengladbach;Über 2,5 Tore;1,65;2;Gewonnen;3:1;1,3;nein
+2026-11-06 20:45;Venezia FC – Udinese Calcio;Udinese Doppelte Chance X2 & Über 1,5 Tore;2,05;1;Verloren;2:1;-1;nein
+2026-11-06 20:45;FC Toulouse – RC Straßburg;Unter 3,5 Tore;1,55;2;Verloren;3:1;-2;nein
+2026-11-06 21:00;FC Sevilla – Deportivo Alavés;Unter 2,5 Tore;1,72;2;Gewonnen;0:0;1,44;nein
+2026-11-06 21:00;FC Everton – Coventry City;Everton Doppelte Chance 1X & Unter 3,5 Tore;1,78;1;Verloren;3:1 (Stand 22:50, 4 Tore);-1;nein
+2026-11-06 21:00;FC Sevilla – Deportivo Alavés;Sieg Sevilla;1,97;2;Verloren;0:0;-2;nein
+2026-11-07 13:00;Holstein Kiel – Arminia Bielefeld;Sieg Kiel;2,47;1;Storniert;;0;nein
+2026-11-07 13:30;Leeds United – Tottenham Hotspur;Unter 2,5 Tore;1,89;2;Gewonnen;1:0;1,78;nein
+2026-11-07 15:00;FC Turin – US Lecce;Über 2,5 Tore;1,96;2;Verloren;1:1;-2;nein
+2026-11-07 15:30;RB Leipzig – FC Augsburg;Über 3,5 Tore;1,7;2;Storniert;;0;nein
+2026-11-07 15:30;Borussia Dortmund – SV Elversberg;Sieg Dortmund;1,33;3;Gewonnen;2:1;0,99;nein
+2026-11-07 15:30;FSV Mainz 05 – Bayern München;Sieg Bayern München;1,37;2;Gewonnen;1:2;0,74;nein
+2026-11-07 15:30;SC Paderborn – Eintracht Frankfurt;Sieg Eintracht Frankfurt;2,2;1;Verloren;2:2;-1;nein
+2026-11-07 15:30;Borussia Dortmund – SV Elversberg;Unter 3,5 Tore;2;1;Gewonnen;2:1;1;nein
+2026-11-07 16:00;FC Arsenal – Hull City;Arsenal gewinnt zu Null (1:0, 2:0 oder 3:0);2,35;1;Gewonnen;1:0;1,35;nein
+2026-11-07 18:00;Parma Calcio – Bologna FC;Doppelte Chance X2 & Über 1,5 Tore;1,62;1;Gewonnen;1:2;0,62;nein
+2026-11-07 18:30;VfB Stuttgart – Werder Bremen;Sieg Stuttgart;1,7;2;Gewonnen;1:0;1,4;nein
+2026-11-07 18:30;Nottingham Forest – Manchester City;Sieg Manchester City;1,76;2;Verloren;3:1;-2;nein
+2026-11-07 18:30;CA Osasuna – Athletic Bilbao;Sieg Athletic Bilbao;2,14;1;Verloren;1:1;-1;nein
+2026-11-07 20:45;AS Rom – US Sassuolo;Über 3,5 Tore;2,02;1;Verloren;3:0;-1;nein
+2026-11-07 21:00;FC Valencia – Real Madrid;Über 2,5 Tore;1,43;2;Storniert;;0;nein
+2026-11-08 13:30;1. FC Heidenheim – Hannover 96;Sieg Heidenheim;2,08;1;Storniert;;0;nein
+2026-11-08 13:30;1. FC Magdeburg – FC St. Pauli;Magdeburg Doppelte Chance 1X;1,58;1;Gewonnen;4:1;0,58;nein
+2026-11-08 14:00;Elche CF – Real Betis;Unter 2,5 Tore;2,26;1;Storniert;;0;nein
+2026-11-08 14:30;FC Twente Enschede – Ajax;Sieg FC Twente Enschede;2,38;1;Verloren;2:2;-1;ja
+2026-11-08 15:00;Brighton & Hove Albion – FC Brentford;Sieg Brighton;1,97;2;Gewonnen;2:0;1,94;nein
+2026-11-08 15:00;Genoa CFC – AC Mailand;Beide Teams treffen;1,92;2;Gewonnen;1:2;1,84;nein
+2026-11-08 15:00;AC Monza – Atalanta Bergamo;Über 2,5 Tore;1,58;2;Storniert;;0;nein
+2026-11-08 15:00;Crystal Palace – FC Liverpool;Sieg Liverpool;1,63;2;Gewonnen;1:3;1,26;nein
+2026-11-08 15:00;AFC Sunderland – FC Chelsea;Sieg Chelsea;2,04;1;Verloren;1:0;-1;nein
+2026-11-08 15:00;Ipswich Town – AFC Bournemouth;Sieg Bournemouth;1,99;2;Gewonnen;1:2;1,98;nein
+2026-11-08 15:30;1. FC Köln – Bayer Leverkusen;Sieg Leverkusen;1,84;1;Gewonnen;1:2;0,84;nein
+2026-11-08 16:15;Real Sociedad – Rayo Vallecano;Sieg Real Sociedad;1,74;2;Gewonnen;1:0;1,48;nein
+2026-11-08 17:30;SC Freiburg – 1. FC Union Berlin;Sieg Freiburg;1,55;2;Gewonnen;2:0;1,1;nein
+2026-11-08 17:30;Manchester United – Aston Villa;Beide Teams treffen;1,52;2;Gewonnen;4:4;1,04;nein
+2026-11-08 18:00;Inter Mailand – Como 1907;Unter 3,5 Tore;1,7;2;Gewonnen;2:0;1,4;nein
+2026-11-08 19:30;TSG Hoffenheim – FC Schalke 04;Sieg Hoffenheim;1,68;2;Gewonnen;2:1;1,36;nein
+2026-11-08 21:00;Atlético Madrid – FC Barcelona;Sieg FC Barcelona;1,91;2;Gewonnen;1:2;1,82;nein
+2026-11-08 22:25;New England Patriots – Green Bay Packers;Handicap: Packers +3,5 (inkl. Verlängerung);1,85;2;Gewonnen;Patriots 27:45 Packers;1,7;nein
+2026-11-09 02:20;Chicago Bears – Tampa Bay Buccaneers;Sieg Tampa Bay Buccaneers;3,3;1;Verloren;27:24;-1;nein
