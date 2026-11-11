@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-11T02:44Z",
+ "stand": "2026-11-11T03:11Z",
  "rows": [
   {
    "nr": 1,
@@ -2543,14 +2543,28 @@
    "nr": 95,
    "datum": "2026-11-11T01:10",
    "spiel": "Toronto Maple Leafs – Colorado Avalanche",
-   "wettart": "Tipp verborgen bis Spielende · Prüfwert 004e9230",
-   "quote": null,
+   "ergebnis": "3:6",
+   "wettart": "Ueber 6,5 Tore (inkl. Verlaengerung)",
+   "quote": 2.2,
    "einsatz": 1,
-   "status": "Offen",
+   "status": "Gewonnen",
    "sport": "Eishockey",
-   "konfidenz": null,
+   "liga": "NHL",
+   "typ": "Totals",
+   "buchmacher": "Unibet (NL)",
+   "konfidenz": 3,
+   "eigene_wahrsch": 0.506,
+   "faire_wahrsch": 0.506,
+   "beste_marktquote": 2.2,
+   "gewinn": 1.2,
+   "beleg": "git",
+   "eingetragen_git": "2026-11-10T15:50:26Z",
+   "abgerechnet_git": null,
+   "begruendung": "Die Quote bei Unibet ist höher, als sie nach dem Preis der Referenz-Wettanbieters Pinnacle sein muesste (faire Chance etwa 51 %). Auch Coolbet bietet 2,15, es ist also kein einzelner Ausreisser.",
+   "news": "Toronto: Rielly und Sissons fraglich (leichte Verletzung). Colorado: Manson und L'Heureux fehlen. Keine Torhueter-Ausfälle in den Daten gemeldet.",
+   "lernnotiz": "9 Tore fielen, deutlich ueber 6,5. Hohe Tor-Wetten im Eishockey gingen hier auf.",
    "commit": "004e9230eb13288f14b055a1d96cae5dd73cafb2698c9cd4011be19e414dc85a",
-   "beleg": "git"
+   "salt": "1e4b9a26ec59bedc"
   }
  ]
 }
