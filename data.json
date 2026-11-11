@@ -1,5 +1,12 @@
 {
- "stand": "2026-11-11T12:03Z",
+ "stand": "2026-11-11T12:34Z",
+ "ehrlich": {
+  "n": 87,
+  "flat_roi_pct": 1.6,
+  "lo_pct": -17,
+  "hi_pct": 20,
+  "hinweis": "Flat-ROI: je Wette 1 EUR Einsatz, 95-%-Schwankungsbreite; Quelle der Logik: scripts/auswertung_ehrlich.py"
+ },
  "rows": [
   {
    "nr": 1,
