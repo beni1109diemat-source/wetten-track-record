@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-11T03:11Z",
+ "stand": "2026-11-11T10:33Z",
  "rows": [
   {
    "nr": 1,
@@ -2559,10 +2559,10 @@
    "gewinn": 1.2,
    "beleg": "git",
    "eingetragen_git": "2026-11-10T15:50:26Z",
-   "abgerechnet_git": null,
+   "abgerechnet_git": "2026-11-11T03:11:57Z",
    "begruendung": "Die Quote bei Unibet ist höher, als sie nach dem Preis der Referenz-Wettanbieters Pinnacle sein muesste (faire Chance etwa 51 %). Auch Coolbet bietet 2,15, es ist also kein einzelner Ausreisser.",
    "news": "Toronto: Rielly und Sissons fraglich (leichte Verletzung). Colorado: Manson und L'Heureux fehlen. Keine Torhueter-Ausfälle in den Daten gemeldet.",
-   "lernnotiz": "9 Tore fielen, deutlich ueber 6,5. Hohe Tor-Wetten im Eishockey gingen hier auf.",
+   "lernnotiz": "9 Tore fielen, deutlich über 6,5. Hohe Tor-Wetten im Eishockey gingen hier auf.",
    "commit": "004e9230eb13288f14b055a1d96cae5dd73cafb2698c9cd4011be19e414dc85a",
    "salt": "1e4b9a26ec59bedc"
   }
