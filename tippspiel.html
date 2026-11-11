@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Fuchs gegen dich – Quotenfuchs Tippspiel</title>
+<meta name="description" content="Kostenloses Tippspiel ohne Einsatz: Tippe gegen den Fuchs. Simulation, kein Echtgeld, ab 18.">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 240 240%27%3E%3Crect width=%27240%27 height=%27240%27 rx=%2740%27 fill=%27%23FFFFFF%27/%3E%3Cpath d=%27M52 28 L100 78 Q120 72 140 78 L188 28 L214 122 L120 216 L26 122 Z%27 fill=%27%230F172A%27/%3E%3Cpath d=%27M26 122 L88 148 Q120 160 152 148 L214 122 L120 216 Z%27 fill=%27%232B4ACB%27/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="assets/site.css">
+<script src="assets/site.js" defer></script>
+<style>
+.tp{max-width:46rem;margin:0 auto;padding:var(--sp-4) max(1.25rem,env(safe-area-inset-left,0px)) var(--sp-4)}
+.tp h1{font-size:var(--t-2xl);line-height:1.1;text-wrap:balance;margin:0 0 var(--sp-2)}
+.tp h2{font-size:var(--t-xl);margin:2rem 0 .75rem}
+.tp .lead{font-size:var(--t-l);color:var(--grau);max-width:38rem}
+.tp .hinweis{background:var(--akzent-bg);border:1px solid var(--akzent-rand);border-radius:var(--r-m);padding:.9rem 1rem;margin:1.25rem 0;font-size:var(--t-s)}
+.tp .stand{display:grid;grid-template-columns:repeat(auto-fit,minmax(10rem,1fr));gap:.75rem;margin:1rem 0}
+.tp .kachel{background:var(--karte);border:1px solid var(--linie);border-radius:var(--r-m);padding:1rem}
+.tp .kachel b{display:block;font-size:var(--t-num);line-height:1.1}
+.tp .kachel span{color:var(--grau);font-size:var(--t-s)}
+.tp .spiel{background:var(--karte);border:1px solid var(--linie);border-radius:var(--r-m);padding:1rem;margin:.75rem 0}
+.tp .spiel h3{margin:0 0 .25rem;font-size:var(--t-l)}
+.tp .meta{color:var(--grau);font-size:var(--t-s);margin:0 0 .75rem}
+.tp .wahl{display:flex;flex-wrap:wrap;gap:.5rem}
+.tp .wahl button{font:inherit;min-height:2.75rem;padding:.5rem 1rem;border-radius:var(--r-s);border:1.5px solid var(--rand-ui);background:var(--karte);color:var(--tinte);cursor:pointer}
+.tp .wahl button[aria-pressed=true]{background:var(--akzent);border-color:var(--akzent);color:#fff}
+.tp .wahl button:disabled{opacity:.55;cursor:not-allowed}
+.tp .erg{font-size:var(--t-s);margin:.6rem 0 0}
+.tp .ok{color:#067647;font-weight:700}.tp .nok{color:var(--minus);font-weight:700}
+.tp .leer{color:var(--grau)}
+.tp .reset{font:inherit;background:none;border:0;color:var(--akzent);text-decoration:underline;cursor:pointer;padding:0}
+</style>
+</head><body>
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+<div class="sim" role="note"><b>Simulation ohne echtes Geld.</b> Keine Wett- oder Anlageberatung, keine Gewinngarantie. Ab 18.</div>
+<header class="sh"><div class="qf-wrap sh-in"><a class="sh-logo" href="index.html" aria-label="Quotenfuchs, zur Startseite"><svg viewBox="0 0 240 240" aria-hidden="true" focusable="false"><path d="M52 28 L100 78 Q120 72 140 78 L188 28 L214 122 L120 216 L26 122 Z" fill="#0F172A"/><path d="M26 122 L88 148 Q120 160 152 148 L214 122 L120 216 Z" fill="#2B4ACB"/></svg>Quotenfuchs</a><nav class="sh-nav" aria-label="Hauptmenü"><a href="index.html">Startseite</a><a href="bilanz.html">Live-Bilanz</a><a href="impressum.html" aria-current="page">Impressum</a><a href="datenschutz.html">Datenschutz</a></nav><details class="sh-menu"><summary><i aria-hidden="true"></i>Menü</summary><div class="sh-panel"><a href="index.html">Startseite</a><a href="bilanz.html">Live-Bilanz</a><a href="impressum.html" aria-current="page">Impressum</a><a href="datenschutz.html">Datenschutz</a></div></details></div></header>
+<main class="tp" id="inhalt">
+<h1>Fuchs gegen dich</h1>
+<p class="lead">Tippe selbst auf dieselben Spiele wie der Fuchs. Nach dem Spiel siehst du, wer richtig lag.</p>
+<div class="hinweis" role="note"><b>Ein kostenloses Tippspiel.</b> Kein Einsatz, keine Preise, kein Echtgeld. Ab 18. Es ist eine Simulation und keine Wettberatung. Wetten kann süchtig machen. Hilfe: <a href="https://www.spielsuchthilfe.at" rel="noopener">spielsuchthilfe.at</a>.</div>
+
+<h2>Dein Stand</h2>
+<div class="stand" id="stand" aria-live="polite"></div>
+<p class="note" id="stand-hinweis"></p>
+
+<h2>Spiele zum Tippen</h2>
+<p class="leer">Der Fuchs tippt auf diese Spiele. Sein Tipp bleibt verborgen, bis das Spiel vorbei ist. Du kannst bis zum Anstoß tippen.</p>
+<div id="offen"></div>
+
+<h2>Ausgewertet</h2>
+<p class="leer">Hier zählt nur, wenn der Fuchs auf den Spielausgang getippt hat (Sieg oder Remis). Bei Tipps auf Tore oder Handicaps lässt sich dein Tipp nicht fair vergleichen.</p>
+<div id="fertig"></div>
+
+<h2>So ehrlich ist der Vergleich</h2>
+<p>Der Fuchs sucht Spiele aus, bei denen die Quote nach seiner Rechnung gut ist. Du tippst auf alle Spiele in der Liste. Mit wenigen Spielen sagt der Stand noch nichts aus, das ist Zufall. Deine Tipps bleiben nur in deinem Browser. Wir speichern nichts über dich. <button class="reset" id="reset" type="button">Meine Tipps löschen</button></p>
+<p class="stand">Stand: November 2026</p>
+</main>
+<script id="tpdaten" type="application/json">{"offen": [], "fertig": [{"nr": 2, "spiel": "FC Chelsea – Manchester United", "ergebnis": "2:0", "wettart": "Sieg Chelsea", "ausgang": "1", "fuchs_ok": true}, {"nr": 3, "spiel": "UD Levante – Atlético Madrid", "ergebnis": "0:2", "wettart": "Sieg Atlético Madrid", "ausgang": "2", "fuchs_ok": true}, {"nr": 12, "spiel": "New York Islanders – Edmonton Oilers", "ergebnis": "0:4", "wettart": "Sieg Edmonton inkl. Verlängerung/Penaltys", "ausgang": "2", "fuchs_ok": true}, {"nr": 15, "spiel": "Racing Straßburg – AJ Auxerre", "ergebnis": "5:1", "wettart": "Sieg Straßburg", "ausgang": "1", "fuchs_ok": true}, {"nr": 17, "spiel": "Eintracht Frankfurt – Hamburger SV", "ergebnis": "3:1", "wettart": "Sieg Frankfurt", "ausgang": "1", "fuchs_ok": true}, {"nr": 18, "spiel": "FC Liverpool – FC Arsenal", "ergebnis": "0:1", "wettart": "1X2: Unentschieden", "ausgang": "2", "fuchs_ok": false}, {"nr": 20, "spiel": "Olympique Marseille – FC Toulouse", "ergebnis": "2:0", "wettart": "1X2: Sieg Marseille", "ausgang": "1", "fuchs_ok": true}, {"nr": 25, "spiel": "Newcastle United – FC Everton", "ergebnis": "0:1", "wettart": "1X2: Unentschieden", "ausgang": "2", "fuchs_ok": false}, {"nr": 26, "spiel": "Deportivo La Coruña – CA Osasuna", "ergebnis": "2:1", "wettart": "Sieg Deportivo", "ausgang": "1", "fuchs_ok": true}, {"nr": 27, "spiel": "Seattle Seahawks – Chicago Bears", "ergebnis": "17:34", "wettart": "Sieg Seahawks", "ausgang": "2", "fuchs_ok": false}, {"nr": 33, "spiel": "Feyenoord Rotterdam – Inter Mailand", "ergebnis": "0:3", "wettart": "Sieg Inter", "ausgang": "2", "fuchs_ok": true}, {"nr": 34, "spiel": "FC Villarreal – Paris Saint-Germain", "ergebnis": "0:6", "wettart": "Sieg PSG", "ausgang": "2", "fuchs_ok": true}, {"nr": 40, "spiel": "Fenerbahçe Istanbul – FC Liverpool", "ergebnis": "3:2", "wettart": "Sieg Liverpool", "ausgang": "1", "fuchs_ok": false}, {"nr": 41, "spiel": "Borussia Dortmund – Real Betis", "ergebnis": "2:1", "wettart": "Sieg Dortmund", "ausgang": "1", "fuchs_ok": true}, {"nr": 45, "spiel": "RSC Anderlecht – FC Salzburg", "ergebnis": "2:0", "wettart": "Sieg Anderlecht", "ausgang": "1", "fuchs_ok": true}, {"nr": 46, "spiel": "AZ Alkmaar – Juventus", "ergebnis": "1:2", "wettart": "Sieg Juventus", "ausgang": "2", "fuchs_ok": true}, {"nr": 48, "spiel": "SK Sturm Graz – NK Celje", "ergebnis": "2:3", "wettart": "Sieg Sturm Graz", "ausgang": "2", "fuchs_ok": false}, {"nr": 49, "spiel": "Bayer Leverkusen – Olympique Marseille", "ergebnis": "0:1", "wettart": "Sieg Leverkusen", "ausgang": "2", "fuchs_ok": false}, {"nr": 50, "spiel": "Phoenix Suns – Orlando Magic", "ergebnis": "117:104", "wettart": "Sieg Phoenix Suns", "ausgang": "1", "fuchs_ok": true}, {"nr": 60, "spiel": "FC Sevilla – Deportivo Alavés", "ergebnis": "0:0", "wettart": "Sieg Sevilla", "ausgang": "X", "fuchs_ok": false}, {"nr": 65, "spiel": "Borussia Dortmund – SV Elversberg", "ergebnis": "2:1", "wettart": "Sieg Dortmund", "ausgang": "1", "fuchs_ok": true}, {"nr": 66, "spiel": "FSV Mainz 05 – Bayern München", "ergebnis": "1:2", "wettart": "Sieg Bayern München", "ausgang": "2", "fuchs_ok": true}, {"nr": 67, "spiel": "SC Paderborn – Eintracht Frankfurt", "ergebnis": "2:2", "wettart": "Sieg Eintracht Frankfurt", "ausgang": "X", "fuchs_ok": false}, {"nr": 71, "spiel": "VfB Stuttgart – Werder Bremen", "ergebnis": "1:0", "wettart": "Sieg Stuttgart", "ausgang": "1", "fuchs_ok": true}, {"nr": 72, "spiel": "Nottingham Forest – Manchester City", "ergebnis": "3:1", "wettart": "Sieg Manchester City", "ausgang": "1", "fuchs_ok": false}, {"nr": 73, "spiel": "CA Osasuna – Athletic Bilbao", "ergebnis": "1:1", "wettart": "Sieg Athletic Bilbao", "ausgang": "X", "fuchs_ok": false}, {"nr": 79, "spiel": "FC Twente Enschede – Ajax", "ergebnis": "2:2", "wettart": "Sieg FC Twente Enschede", "ausgang": "X", "fuchs_ok": false}, {"nr": 80, "spiel": "Brighton & Hove Albion – FC Brentford", "ergebnis": "2:0", "wettart": "Sieg Brighton", "ausgang": "1", "fuchs_ok": true}, {"nr": 83, "spiel": "Crystal Palace – FC Liverpool", "ergebnis": "1:3", "wettart": "Sieg Liverpool", "ausgang": "2", "fuchs_ok": true}, {"nr": 84, "spiel": "AFC Sunderland – FC Chelsea", "ergebnis": "1:0", "wettart": "Sieg Chelsea", "ausgang": "1", "fuchs_ok": false}, {"nr": 85, "spiel": "Ipswich Town – AFC Bournemouth", "ergebnis": "1:2", "wettart": "Sieg Bournemouth", "ausgang": "2", "fuchs_ok": true}, {"nr": 86, "spiel": "1. FC Köln – Bayer Leverkusen", "ergebnis": "1:2", "wettart": "Sieg Leverkusen", "ausgang": "2", "fuchs_ok": true}, {"nr": 87, "spiel": "Real Sociedad – Rayo Vallecano", "ergebnis": "1:0", "wettart": "Sieg Real Sociedad", "ausgang": "1", "fuchs_ok": true}, {"nr": 88, "spiel": "SC Freiburg – 1. FC Union Berlin", "ergebnis": "2:0", "wettart": "Sieg Freiburg", "ausgang": "1", "fuchs_ok": true}, {"nr": 91, "spiel": "TSG Hoffenheim – FC Schalke 04", "ergebnis": "2:1", "wettart": "Sieg Hoffenheim", "ausgang": "1", "fuchs_ok": true}, {"nr": 92, "spiel": "Atlético Madrid – FC Barcelona", "ergebnis": "1:2", "wettart": "Sieg FC Barcelona", "ausgang": "2", "fuchs_ok": true}, {"nr": 94, "spiel": "Chicago Bears – Tampa Bay Buccaneers", "ergebnis": "27:24", "wettart": "Sieg Tampa Bay Buccaneers", "ausgang": "1", "fuchs_ok": false}], "fuchsn": 37, "fuchsw": 24}</script>
+<script>
+(function(){
+var D=JSON.parse(document.getElementById('tpdaten').textContent),KEY='qf_tippspiel_v1',T={};
+try{T=JSON.parse(localStorage.getItem(KEY)||'{}')||{}}catch(e){T={}}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(T))}catch(e){}}
+var NAME={'1':'Heim','X':'Remis','2':'Gast'};
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function fmt(ko){var d=new Date(ko);return d.toLocaleString('de-AT',{weekday:'short',day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit',timeZone:'Europe/Vienna'})+' Uhr'}
+function render(){
+  var now=Date.now(),o='',f='',vw=0,vn=0,fw=0,fn=0,anz=0;
+  D.offen.forEach(function(g){
+    var zu=now>=new Date(g.ko).getTime(),w=T[g.nr],opts=g.zweiweg?['1','2']:['1','X','2'];
+    anz+=w?1:0;
+    o+='<div class="spiel"><h3>'+esc(g.spiel)+'</h3><p class="meta">'+esc(g.sport)+' · '+fmt(g.ko)+'</p><div class="wahl" role="group" aria-label="Dein Tipp für '+esc(g.spiel)+'">'+
+      opts.map(function(k){return '<button type="button" data-nr="'+g.nr+'" data-k="'+k+'" aria-pressed="'+(w===k)+'"'+(zu?' disabled':'')+'>'+NAME[k]+'</button>'}).join('')+
+      '</div>'+(zu?'<p class="erg leer">Das Spiel läuft oder ist vorbei. Der Tipp ist gesperrt. Das Ergebnis folgt hier.</p>':'')+'</div>';
+  });
+  D.fertig.forEach(function(g){
+    var w=T[g.nr];if(!w)return;
+    var richtig=(w===g.ausgang),fox=g.fuchs_ok;
+    vn++;fn++;if(richtig)vw++;if(fox)fw++;
+    f+='<div class="spiel"><h3>'+esc(g.spiel)+'</h3><p class="meta">Endstand '+esc(g.ergebnis)+'</p><p class="erg">Du: '+NAME[w]+' <span class="'+(richtig?'ok':'nok')+'">'+(richtig?'richtig':'falsch')+'</span> · Fuchs: '+esc(g.wettart)+' <span class="'+(fox?'ok':'nok')+'">'+(fox?'richtig':'falsch')+'</span></p></div>';
+  });
+  document.getElementById('offen').innerHTML=o||'<p class="leer">Aktuell gibt es kein Spiel zum Tippen. Der Fuchs wählt täglich neue Spiele aus, schau später wieder vorbei.</p>';
+  document.getElementById('fertig').innerHTML=f||'<p class="leer">Noch nichts ausgewertet. Tippe oben, dann erscheint hier dein Vergleich.</p>';
+  var pct=function(a,b){return b?Math.round(100*a/b)+' %':'–'};
+  document.getElementById('stand').innerHTML=
+    '<div class="kachel"><b>'+vw+' : '+fw+'</b><span>Du gegen Fuchs (richtige Tipps)</span></div>'+
+    '<div class="kachel"><b>'+pct(vw,vn)+'</b><span>Deine Trefferquote ('+vn+' Spiele)</span></div>'+
+    '<div class="kachel"><b>'+pct(D.fuchsw,D.fuchsn)+'</b><span>Fuchs insgesamt ('+D.fuchsn+' Spiele auf den Ausgang)</span></div>';
+  document.getElementById('stand-hinweis').textContent=vn<20?'Noch zu wenige Spiele für einen Schluss. Das kann Zufall sein.':'';
+}
+document.addEventListener('click',function(e){
+  var b=e.target.closest('button[data-nr]');if(b&&!b.disabled){T[b.dataset.nr]=b.dataset.k;save();render();return}
+  if(e.target.id==='reset'){T={};try{localStorage.removeItem(KEY)}catch(x){}render()}
+});
+render();setInterval(render,60000);
+})();
+</script>
+<footer class="sf">
+  <div class="qf-wrap sf-grid">
+    <div>
+      <h2>Quotenfuchs</h2>
+      <ul class="sf-links"><li><a href="index.html">Startseite</a></li><li><a href="bilanz.html">Live-Bilanz</a></li><li><a href="tippspiel.html">Tippspiel</a></li><li><a href="impressum.html">Impressum</a></li><li><a href="datenschutz.html">Datenschutz</a></li></ul>
+      <p>Eine Simulation ohne echtes Geld, kein Angebot und keine Wett- oder Anlageberatung. Es gibt keine Gewinngarantie. Ab 18. Wetten sind mit Verlustrisiko verbunden und können süchtig machen.</p>
+    </div>
+    <div class="hilfe">
+      <h2>Hilfe bei Glücksspielproblemen</h2>
+      <p>Hilfe bei Glücksspielproblemen in ganz Österreich: <a href="https://www.spielsuchthilfe.at" rel="noopener">spielsuchthilfe.at</a>. In der Steiermark: Fachstelle für Glücksspielsucht Steiermark (<a href="https://www.fachstelle-gluecksspielsucht.at" rel="noopener">fachstelle-gluecksspielsucht.at</a>).</p>
+    </div>
+  </div>
+</footer>
+</body></html>
