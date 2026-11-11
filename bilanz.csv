@@ -1,4 +1,4 @@
-﻿Datum;Spiel;Wettart;Quote;Einsatz (Simulation, EUR);Status;Ergebnis;Gewinn/Verlust (Simulation, EUR);Zeitnachweis
+﻿Datum;Spiel;Wettart;Quote;Einsatz (rechnerisch, EUR);Status;Ergebnis;Gewinn/Verlust (rechnerisch, EUR);Zeitnachweis
 2026-10-31 01:00;Calgary Flames – Seattle Kraken;Seattle Teamtotal 1. Drittel Über 0,5;1,48;2;Gewonnen;6:2;0,96;nein
 2026-10-31 13:30;FC Chelsea – Manchester United;Sieg Chelsea;1,8;2;Gewonnen;2:0;1,6;nein
 2026-10-31 14:00;UD Levante – Atlético Madrid;Sieg Atlético Madrid;1,5;3;Gewonnen;0:2;1,5;nein
